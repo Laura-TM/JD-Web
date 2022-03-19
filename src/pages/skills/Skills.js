@@ -3,9 +3,9 @@ import "./skills.css";
 
 function Skills() {
   return (
-    <div>
-      <h1>Skills</h1>
-    </div>
+    <>
+      <h1 className="skills">Skills</h1>
+    </>
   );
 }
 

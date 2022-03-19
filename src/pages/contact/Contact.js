@@ -3,9 +3,9 @@ import "./contact.css";
 
 function Contact() {
   return (
-    <div>
-      <h1>Contact</h1>
-    </div>
+    <>
+      <h1 className="contact">Contact</h1>
+    </>
   );
 }
 

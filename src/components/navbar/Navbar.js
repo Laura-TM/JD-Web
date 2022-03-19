@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { Dropdown } from "./dropdown/Dropdown";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
@@ -13,7 +12,11 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
-          LTM
+          <img
+            alt="LTM"
+            src="/images/LTM-small.png"
+            className="app-logo"
+          />
         </Link>
         <div className="menu-icon" onClick={handleToggle}>
           <i className={toggle ? "fas fa-times" : "fas fa-bars"} />
