@@ -14,7 +14,7 @@ function Navbar() {
         <Link to="/" className="navbar-logo">
           <img
             alt="LTM"
-            src="/images/LTM-small.png"
+            src="/images/LTM-Logo-Design.png"
             className="app-logo"
           />
         </Link>

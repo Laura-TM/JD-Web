@@ -8,19 +8,12 @@
   border-top: none;
   border-left: none;
   border-right: none;
-  border: 1px dotted rgba(225, 0, 255, 0.9);
+  border: 1px dotted #333d79ff;
+  background: #E86E80;
 }
 
-/* DONT THINK THE BELOW IS NEEDED! CHECK WITH DANIEL
-.nav-item {
-  display: flex;
-  align-items: center;
-  height: 80px;
-} 
-*/
-
 .nav-links {
-  color: rgb(97, 20, 141);
+  color: #fff;
   font-weight: bolder;
   text-decoration: none;
   padding: 0.1rem 1rem;
@@ -33,8 +26,8 @@
   cursor: pointer;
   vertical-align: middle;
   margin-left: 2rem;
-  border: 5px dotted rgb(121, 35, 170);
-  border-radius: 15px;
+  /* border: 5px dotted #ffffff; */
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 860px) {
@@ -45,7 +38,7 @@
     position: absolute;
     top: 0px;
     right: 0;
-    left: -125%;
+    left: -150%;
     transition: all 0.5s ease;
   }
 
@@ -103,6 +96,7 @@
   .navbar-logo {
     position: absolute;
     left: 0;
+    /* width: 200px; */
   }
 
   .menu-icon {
@@ -118,7 +112,8 @@
 
   .fa-times::before,
   .fa-bars {
-    color: rgb(97, 20, 141);
+    /* color: rgb(97, 20, 141); */
+    color: #fff;
   }
 
   /* .nav-links-mobile {
@@ -177,6 +172,12 @@
 
 /* 
 
+GREY COLOR FOR DARK MODE: #282c34 OR #282c36
+
+PINK COLOR FOR DARK MODE: #dc658b
+
+BLUE COLOR FOR DARK MODE IF THIRD NEEDED: #61dafb / #65dcb6 / #65c7dc
+
 xs mobiles 320px
 
 sm mobiles 375px
@@ -199,3 +200,53 @@ wd desktop 1440px
 
 lg desktop 2100px 
 */
+
+/* // export const lightTheme = {
+  //   body: "#FFF",
+  //   toggleBorder: "#FFF",
+  //   background: "#FAEBEFFF",
+  //   bodyBg: "white",
+  //   navBg: "rgba(218, 218, 236, 0.33)",
+  //   headings: "black",
+  //   text: "#818181",
+  //   borderColor: "#ededed",
+  //   toggleIcon: "#212121",
+  //   mutedText: "#b1b1b1",
+  //   transitionTime: ".25s",
+  //   lightAccent: "rgba(218, 218, 236, 0.23)",
+  //   underLine: "#D10068",
+  //   links: "#212121",
+  // };
+  
+  // export const darkTheme = {
+  //   body: "#363537",
+  //   text: "#FAD0C9FF",
+  //   toggleBorder: "#6B8096",
+  //   background: "#424143",
+  //   bodyBg: "#141a2c",
+  //   navBg: "rgba(218, 218, 236, 0.08)",
+  //   headings: "white",
+  //   borderColor: "#212121",
+  //   toggleIcon: "#b1b1b1 ",
+  //   mutedText: "#515151",
+  //   transitionTime: ".25s",
+  //   lightAccent: "rgba(218, 218, 236, 0.05)",
+  //   underLine: "#D10068",
+  //   links: "#ededed",
+  // }; */
+
+/* export const lightTheme = {
+    bg: "#FCF2EB",
+    sun: "#EFB099",
+    moon: "#D6C2B5",
+    shadow: "#cac2bc",
+    light: "#fff",
+  };
+  
+  export const darkTheme = {
+    bg: "#396273",
+    sun: "#8DC4D1",
+    moon: "#fff",
+    shadow: "#2e4e5c",
+    light: "#4d7281",
+  }; */

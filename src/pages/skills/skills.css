@@ -1,0 +1,19 @@
+@media screen and (max-width: 860px) {
+  .skills-intro {
+    font-size: large;
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 53em) and (orientation: landscape) {
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    height: 78vh;
+  }
+
+  .skills-intro {
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+}

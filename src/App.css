@@ -14,9 +14,10 @@ body {
 }
 
 .App {
-  border: 6px solid rgb(149, 73, 194);
+  /* border: 6px solid #A9A9A9; */
+  /* background: #faebefff; */
+  background: #EFEFEF;
   border-radius: 5px;
-  background: #f8d7f5;
 }
 
 .home,
