@@ -1,0 +1,107 @@
+.word-cloud {
+  border-radius: 10%;
+  padding: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+@media screen and (max-width: 305px) {
+  .word-cloud {
+    width: 75%;
+  }
+
+  .text-wrapper {
+    margin: 5px;
+  }
+}
+
+@media (min-width: 306px) and (max-width: 347px) {
+  .word-cloud {
+    width: 65%;
+  }
+
+  .text-wrapper {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 348px) and (max-width: 460px) {
+  .word-cloud {
+    width: 75%;
+  }
+
+  .text-wrapper {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 461px) and (max-width: 510px) {
+  .LTM-logo-avatar-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .word-cloud {
+    width: 60%;
+    margin: 20px;
+  }
+}
+
+@media (min-width: 511px) and (max-width: 767px) {
+  .word-cloud {
+    width: 55%;
+    margin: 15px;
+  }
+
+  .home-wrapper {
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .word-cloud {
+    width: 40%;
+    margin: 10px;
+  }
+
+  .home-wrapper {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 992px) and (orientation: landscape) {
+  .LTM-logo-avatar-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .word-cloud {
+    width: 65%;
+    margin-top: 10px;
+  }
+
+  .home-wrapper {
+    margin-top: 45px;
+  }
+}
+
+@media (min-width: 1250px) and (orientation: landscape) {
+  .LTM-logo-avatar-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .word-cloud {
+    width: 55%;
+  }
+
+  .home-wrapper {
+    margin-top: 35px;
+  }
+}

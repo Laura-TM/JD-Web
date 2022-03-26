@@ -1,0 +1,66 @@
+.avatar {
+  border-radius: 40px;
+  border: 5px dotted #e92c6b;
+}
+
+@media screen and (max-width: 305px) {
+  .avatar {
+    width: 45%;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 306px) and (max-width: 347px) {
+  .avatar {
+    width: 50%;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 348px) and (max-width: 460px) {
+  .avatar {
+    width: 55%;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 461px) and (max-width: 510px) {
+  .avatar {
+    width: 40%;
+    margin: 20px;
+    border-radius: 40%;
+  }
+}
+
+@media (min-width: 511px) and (max-width: 767px) {
+  .avatar {
+    width: 45%;
+    margin: 5px;
+    border-radius: 40%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .avatar {
+    width: 50%;
+    margin: 10px;
+    border-radius: 45%;
+  }
+}
+
+@media (min-width: 992px) and (orientation: landscape) {
+  .avatar {
+    width: 65%;
+    margin-top: 10px;
+    border-radius: 30%;
+    border: 5px dotted #e92c6b;
+  }
+}
+
+@media (min-width: 1250px) and (orientation: landscape) {
+  .avatar {
+    width: 55%;
+    border-radius: 30%;
+    border: 5px dotted #e92c6b;
+  }
+}

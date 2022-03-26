@@ -1,28 +1,32 @@
 import React from "react";
-import "./App.css";
-import { Navbar, Footer } from "./components";
+// import ReactDOM from "react-dom";
+// import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+// import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-/* ask daniel why line 3 cannot be imported directly from the folder itself and delete the extra index.js inside the components folder */
-import { Home, About, Skills, Projects, Contact } from "./pages";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { Home, About, Projects, Skills, Contact } from "./components";
 
 function App() {
   return (
     <>
       <div className="App">
-        <div className="gradient__bg">
-          <Router>
-            <Navbar />
-            <Routes>
-              <Route exact path="/" element={<Home />} />
-              <Route exact path="/about" element={<About />} />
-              <Route exact path="/skills" element={<Skills />} />
-              <Route exact path="/projects" element={<Projects />} />
-              <Route exact path="/contact" element={<Contact />} />
-            </Routes>
-          </Router>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            {/* <Route path="/projects" element={<Projects />} /> */}
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
           <Footer />
-        </div>
+        </Router>
       </div>
     </>
   );

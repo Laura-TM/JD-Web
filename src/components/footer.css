@@ -1,8 +1,15 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: #008f95;
-    bottom: 0;
-    margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #008f95;
+  bottom: 0;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 580px) {
+  .footer-wrapper {
+    flex-wrap: wrap;
+    /* width: 40% !important; */
+  }
 }

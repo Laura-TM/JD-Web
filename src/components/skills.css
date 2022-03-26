@@ -1,4 +1,4 @@
-@media screen and (max-width: 860px) {
+/* @media screen and (max-width: 860px) {
   .skills-intro {
     font-size: large;
     padding: 20px 0;
@@ -16,4 +16,11 @@
     margin: 0 auto;
     padding: 50px 0;
   }
+} */
+
+.skills-tool-logo {
+  width: 40%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px;
+  background: #e9b000;
 }
