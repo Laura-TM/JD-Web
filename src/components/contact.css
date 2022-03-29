@@ -1,0 +1,371 @@
+/* General */
+
+.contact-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* padding: 20px; */
+  position: relative;
+}
+
+/* Left Contact Page */
+
+.direct-contact-container {
+  float: none;
+  margin: 0 auto;
+}
+
+/* Heading Section */
+
+.section-header {
+  margin: 0 auto;
+  color: rgb(59, 58, 58);
+  letter-spacing: 3px;
+}
+
+/* Location, Phone, Email Section */
+
+.details-list {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.details {
+  margin: 14px;
+}
+
+.details i {
+  font-size: 30px;
+  color: #e9b000;
+  margin-bottom: 10px;
+  /* margin: 14px; */
+}
+
+.topic {
+  font-size: 18px;
+  font-weight: 500;
+  color: #afafb6;
+}
+
+.text-one {
+  font-size: 14px;
+  color: #5a5a5c;
+}
+
+/* Social Media Icons */
+
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 50%;
+  margin: 0.5rem auto;
+  padding: 0;
+}
+
+.social-media-list li {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #e9b000;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+/* Right contact page */
+
+/* Message Form */
+
+.form-horizontal {
+  max-width: 400px;
+  font-weight: 400;
+}
+
+.form-control,
+textarea {
+  background-color: rgb(240, 235, 235);
+  letter-spacing: 1px;
+  max-width: 85%;
+  margin: 0.5rem auto;
+  border-radius: 20px;
+}
+
+.send-button {
+  margin-top: 5px;
+  height: 34px;
+  width: 85%;
+  overflow: hidden;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #3e2093;
+  transition: all 0.2s ease-in-out;
+}
+
+.alt-send-button {
+  /* width: 400px; */
+  height: 34px;
+  transition: all 0.2s ease-in-out;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+.send-text {
+  color: #fff;
+  display: block;
+  margin-top: 7px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Media Queries Above XS Screens */
+
+@media (min-width: 300px) and (max-width: 385px) {
+  /* Social Media Icons */
+
+  .social-media-list {
+    width: 100%;
+  }
+}
+
+@media (min-width: 386px) and (max-width: 450px) {
+  /* Left Contact Page */
+
+  .personal-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .details-list {
+    width: 60%;
+  }
+
+  /* Social Media Icons */
+
+  .social-media-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+  }
+
+  .social-media-list li {
+    margin: 18px 3px;
+  }
+
+  /* Right contact page */
+
+  /* Message Form */
+
+  .form-horizontal {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 569px) {
+  /* Social Media Icons */
+
+  .social-media-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+  }
+
+  /* Message Form */
+
+  .form-horizontal {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 820px) {
+  .contact-wrapper {
+    flex-direction: row;
+    margin: 65px auto;
+  }
+
+  /* Left Contact Page */
+  .direct-contact-container {
+    margin: 10px 0;
+    max-width: 45%;
+  }
+
+  /* Social Media Icons */
+  .social-media-list {
+    width: 100%;
+    margin: 0.5rem auto;
+  }
+
+  /* Right contact page */
+
+  /* Message Form */
+
+  #contact-form {
+    width: 55%;
+    margin: 15px auto;
+  }
+}
+
+@media (min-width: 821px) and (max-width: 894px) {
+  .contact-wrapper {
+    flex-direction: row;
+    margin: 70px auto;
+  }
+
+  .direct-contact-container {
+    width: 55%;
+  }
+  #contact-form {
+    width: 45%;
+  }
+}
+
+@media (min-width: 895px) and (max-width: 1094px) {
+  .contact-wrapper {
+    flex-direction: row;
+    margin: 75px auto;
+  }
+
+  /* Left Contact Page */
+  .direct-contact-container {
+    margin: 10px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+
+  .personal-info {
+    margin: 0 auto;
+  }
+
+  .details-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Social Media Icons */
+  .social-media-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .social-media-list li {
+    left: -18px;
+  }
+  /* Right contact page */
+
+  /* Message Form */
+
+  #contact-form {
+    width: 100%;
+    margin: 15px auto;
+  }
+}
+
+@media (min-width: 1095px) {
+  .contact-wrapper {
+    flex-direction: row;
+    margin: 80px auto;
+  }
+
+  /* Left Contact Page */
+  .direct-contact-container {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+
+  .personal-info {
+    margin: 0 auto;
+  }
+
+  .details-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Social Media Icons */
+  .social-media-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .social-media-list li {
+    left: -18px;
+  }
+
+  /* Right contact page */
+
+  /* Message Form */
+
+  #contact-form {
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .form-horizontal {
+    max-width: 100%;
+  }
+}

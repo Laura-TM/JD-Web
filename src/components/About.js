@@ -3,8 +3,8 @@ import "./about.css";
 
 function About() {
   return (
-    <div className="about">
-      <div class="container">
+    <div id="about">
+      <div class="container about-section">
         <div class="row align-items-center my-5">
           <div class="col-lg-7 text-center">
           <img
@@ -13,7 +13,7 @@ function About() {
               alt="LTM-avatar"
             />
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 about-text">
             <h1 class="font-weight-light text-center pt-3">Who am I ?</h1>
             <p class="pt-3">
               ¡Hola a todos! I am Laura, a junior web developer based in London.
