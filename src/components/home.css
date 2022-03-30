@@ -18,6 +18,7 @@
 @media (min-width: 306px) and (max-width: 347px) {
   .word-cloud {
     width: 65%;
+    margin-top: 80px;
   }
 
   .text-wrapper {
@@ -26,17 +27,19 @@
 }
 
 @media (min-width: 348px) and (max-width: 460px) {
-  .word-cloud {
-    width: 75%;
-  }
-
+  
   .text-wrapper {
     margin: 20px;
+  }
+
+  .word-cloud {
+    width: 70%;
+    margin-top: 90px;
   }
 }
 
 @media (min-width: 461px) and (max-width: 510px) {
-  .LTM-logo-avatar-wrapper {
+  .home-wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -44,64 +47,44 @@
   }
 
   .word-cloud {
-    width: 60%;
-    margin: 20px;
+    width: 70%;
+    margin-top: 90px;
   }
 }
 
 @media (min-width: 511px) and (max-width: 767px) {
   .word-cloud {
-    width: 55%;
+    width: 75%;
     margin: 15px;
   }
 
   .home-wrapper {
-    margin-top: 35px;
+    margin-top: 85px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .word-cloud {
-    width: 40%;
+    width: 80%;
     margin: 10px;
   }
 
   .home-wrapper {
-    margin-top: 30px;
+    margin-top: 90px;
   }
 }
 
 @media (min-width: 992px) and (orientation: landscape) {
-  .LTM-logo-avatar-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-  }
-
+ 
   .word-cloud {
-    width: 65%;
-    margin-top: 10px;
+    width: 100%;
   }
 
   .home-wrapper {
-    margin-top: 45px;
-  }
-}
-
-@media (min-width: 1250px) and (orientation: landscape) {
-  .LTM-logo-avatar-wrapper {
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
-  }
-
-  .word-cloud {
-    width: 55%;
-  }
-
-  .home-wrapper {
-    margin-top: 35px;
   }
 }
