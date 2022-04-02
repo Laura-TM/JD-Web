@@ -159,6 +159,19 @@ textarea {
   letter-spacing: 2px;
 }
 
+.success-email-sent {
+  font-style: italic;
+  font-size: smaller;
+  /* left: 140px; */
+}
+
+.form-group {
+  width: 100%;
+  /* margin: 0 auto; */
+  left: 100px;
+  margin-left: 0;
+}
+
 /* Media Queries Above XS Screens */
 
 @media (min-width: 300px) and (max-width: 385px) {

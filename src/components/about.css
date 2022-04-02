@@ -1,58 +1,70 @@
 .avatar {
   border-radius: 40px;
   border: 5px dotted #e92c6b;
+  margin-bottom: 3rem;
+}
+
+.about-text p {
+  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 305px) {
   .avatar {
     width: 45%;
-    border-radius: 50%;
+    border-radius: 45%;
+    margin-bottom: 15px !important;
+  }
+
+  .about-text {
+    margin: 0 10px;
   }
 }
 
 @media (min-width: 306px) and (max-width: 347px) {
+  .about-section {
+    margin-top: 60px;
+  }
+
+  .avatar {
+    width: 55%;
+    border-radius: 50%;
+    margin-bottom: 20px !important;
+  }
+
+  .about-text {
+    margin: 0 15px;
+  }
+}
+
+@media (min-width: 348px) and (max-width: 460px) {
+  .about-section {
+    margin-top: 65px;
+  }
+
+  .avatar {
+    width: 60%;
+    border-radius: 45%;
+    margin-bottom: 20px !important;
+  }
+
+  .about-text {
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 461px) and (max-width: 510px) {
   .about-section {
     margin-top: 70px;
   }
 
   .avatar {
     width: 50%;
-    border-radius: 50%;
-  }
-
-  .about-text {
-    margin: 0 25px;
-  }
-}
-
-@media (min-width: 348px) and (max-width: 460px) {
-  .about-section {
-    margin-top:75px;
-  }
-
-  .avatar {
-    width: 55%;
-    border-radius: 50%;
-  }
-
-  .about-text {
-    margin: 0 30px;
-  }
-}
-
-@media (min-width: 461px) and (max-width: 510px) {
-  .about-section {
-    margin-top: 80px;
-  }
-
-  .avatar {
-    width: 40%;
     margin: 20px;
     border-radius: 40%;
   }
 
   .about-text {
-    margin: 0 35px;
+    margin: 0 25px;
   }
 }
 
@@ -66,9 +78,9 @@
     margin: 5px;
     border-radius: 40%;
   }
-  
+
   .about-text {
-    margin: 0 40px;
+    margin: 0 20px;
   }
 }
 
@@ -82,14 +94,16 @@
 
 @media (min-width: 992px) and (orientation: landscape) {
   .about-section {
-    margin-top: 100px;
+    margin-top: 50px;
   }
+
   .avatar {
     width: 75%;
     margin-top: 10px;
     border-radius: 30%;
     border: 5px dotted #e92c6b;
   }
+
   p {
     font-size: larger;
   }
@@ -97,7 +111,7 @@
 
 @media (min-width: 1250px) and (orientation: landscape) {
   .about-section {
-    margin-top: 150px;
+    margin-top: 60px;
   }
   .avatar {
     width: 80%;
