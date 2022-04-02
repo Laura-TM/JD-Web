@@ -73,27 +73,6 @@ body {
 
 /* CHECK CODE ABOVE THIS LINE - IF NOT NEEDED, THEN DELETE */
 
-/* .btn {
-  border: 5px solid;
-  border-image-slice: 1;
-  background: var(--gradient) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  border-image-source: var(--gradient) !important;
-  text-decoration: none;
-  transition: all 0.4s ease;
-} */
-
-/* .btn:hover,
-.btn:focus {
-  background: var(--gradient) !important;
-  -webkit-background-clip: none !important;
-  -webkit-text-fill-color: #fff !important;
-  border: 5px solid #fff !important;
-  box-shadow: #222 1px 0 10px;
-  text-decoration: underline;
-} */
-
 .card:hover {
   transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);

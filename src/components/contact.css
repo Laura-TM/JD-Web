@@ -174,11 +174,24 @@ textarea {
 
 /* Media Queries Above XS Screens */
 
+@media (min-width: 100px) and (max-width: 299px) {
+  /* Message Form */
+
+  /* .form-horizontal {
+    margin-bottom: 190px;
+  } */
+}
+
 @media (min-width: 300px) and (max-width: 385px) {
   /* Social Media Icons */
 
   .social-media-list {
     width: 100%;
+  }
+
+  /* Message Form */
+  .form-horizontal {
+    margin-bottom: 90px;
   }
 }
 

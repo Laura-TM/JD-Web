@@ -9,31 +9,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  overflow: hidden;
   font-family: "Nunito", sans-serif;
 }
 
 .App {
-  /* border: 6px solid #A9A9A9; */
-  /* background: #faebefff; */
-  /* background: #EFEFEF; */
-  background: #f3f4f6;
-  border-radius: 5px;
-}
-
-.home,
-.about,
-.skills,
-.projects,
-.contact {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
-
-a {
-  color: unset;
-  text-decoration: none;
+  background: #f9fbff;
 }
