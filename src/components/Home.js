@@ -9,7 +9,7 @@ function Home() {
           <div class="col-lg-7 mt-3 mb-4">
             <img
               className="word-cloud"
-              src="/images/word-cloud.png"
+              src="/images/word-cloud-weather.png"
               alt="LTM-avatar"
             />
           </div>
