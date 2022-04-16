@@ -124,7 +124,7 @@ function SkillsHeading() {
                 </div>
               </div>
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2 mb-3">
-                <div class="item mb-5">
+                <div class="item mb-6">
                   <SiTrustpilot class="img-thumbnail skills-tool-logo" />
                   <h4 class="mt-3">Trustworthy</h4>
                 </div>
