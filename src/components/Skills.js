@@ -2,7 +2,14 @@ import React from "react";
 import "./skills.css";
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { FaReact, FaGitAlt, FaGithub, FaBootstrap } from "react-icons/fa";
-import { SiVisualstudio, SiCypress, SiPostgresql, SiPostman, SiElastic, SiTrustpilot } from "react-icons/si";
+import {
+  SiVisualstudio,
+  SiCypress,
+  SiPostgresql,
+  SiPostman,
+  SiElastic,
+  SiTrustpilot,
+} from "react-icons/si";
 import { MdDevicesOther, MdSettingsAccessibility } from "react-icons/md";
 import { RiTeamLine } from "react-icons/ri";
 import { GrTroubleshoot } from "react-icons/gr";
@@ -124,7 +131,7 @@ function SkillsHeading() {
                 </div>
               </div>
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-2 mb-3">
-                <div class="item mb-6">
+                <div class="item mb-4">
                   <SiTrustpilot class="img-thumbnail skills-tool-logo" />
                   <h4 class="mt-3">Trustworthy</h4>
                 </div>
