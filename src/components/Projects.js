@@ -1,4 +1,5 @@
 import React from "react";
+import "./projects.css";
 // https://codepen.io/maryj25/pen/axBNVO
 
 function SkillsHeading() {
@@ -24,7 +25,7 @@ function SkillsHeading() {
                   <p class="small text-muted">
                     Group project to track students' engagement.
                   </p>
-                  <p class="small">Javascript, Material UI, and others</p>
+                  <p class="small">Javascript, Material UI, and more.</p>
                   <a
                     href="https://ldn7-slackdashbord.herokuapp.com/"
                     class="btn btn-warning mr-2"
@@ -35,7 +36,7 @@ function SkillsHeading() {
                   </a>
                   <a
                     href="https://github.com/Laura-TM/ldn7-slackdashbord"
-                    class="btn btn-warning"
+                    class="btn btn-warning button-links"
                   >
                     <i class="fab fa-github"></i> Github
                   </a>
@@ -55,7 +56,7 @@ function SkillsHeading() {
                 <div class="p-4">
                   <h5 class="mb-0">Hotel website</h5>
                   <p class="small text-muted">
-                    Generated a site with bookings and suggestions.
+                    Leisure site with bookings and suggestions.
                   </p>
                   <p class="small">React</p>
                   <a
@@ -68,7 +69,7 @@ function SkillsHeading() {
                   </a>
                   <a
                     href="https://github.com/Laura-TM/cyf-hotel-react"
-                    class="btn btn-warning"
+                    class="btn btn-warning button-links"
                   >
                     <i class="fab fa-github"></i> Github
                   </a>
@@ -101,7 +102,7 @@ function SkillsHeading() {
                   </a>
                   <a
                     href="https://github.com/Laura-TM/multitudes-HTML-CSS-form"
-                    class="btn btn-warning"
+                    class="btn btn-warning button-links"
                   >
                     <i class="fab fa-github"></i> Github
                   </a>
@@ -119,7 +120,7 @@ function SkillsHeading() {
                   class="w-100 card-img-top"
                 />
                 <div class="p-4">
-                  <h5 class="mb-0">TV Recommendation Site</h5>
+                  <h5 class="mb-0">TV Suggestion Site</h5>
                   <p class="small text-muted">Produced a TV showcase site.</p>
                   <p class="small">Javascript, HTML, CSS</p>
                   <a
@@ -132,7 +133,7 @@ function SkillsHeading() {
                   </a>
                   <a
                     href="https://github.com/Laura-TM/tv-show-dom-project"
-                    class="btn btn-warning"
+                    class="btn btn-warning button-links"
                   >
                     <i class="fab fa-github"></i> Github
                   </a>
