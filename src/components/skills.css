@@ -24,3 +24,9 @@
   box-shadow: 0 0 10px;
   background: #e9b000;
 }
+
+@media screen and (max-width: 991px) {
+  .last-label {
+    margin-bottom: 40px;
+  }
+}
